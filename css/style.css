@@ -103,6 +103,7 @@ html,button,input,select,textarea {
 body {
 	margin:0;
 	font-family: 'Open Sans',sans-serif;
+	
 }
 /* ==========================================================================Links========================================================================== */
 a:focus {
@@ -873,6 +874,10 @@ img.grayscale:hover {
 	background-color: #E04343;
 	padding:70px 0;
 }
+body div { font-size: large; margin-bottom: 50px; }
+
+.none_div { display: none; background-color: blueviolet; }
+
 .outline-btn {
 	display:inline-block;
 	padding:25px 40px;
