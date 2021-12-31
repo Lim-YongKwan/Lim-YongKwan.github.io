@@ -231,6 +231,7 @@ fieldset {
 	margin:0 2px;
 	padding:0.35em 0.625em 0.75em;
 }
+.none_div { display: none; background-color: blueviolet; }
 
 legend {
 	border:0;
@@ -455,10 +456,10 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right bottom no-repeat;
+	background:  url('../img/header-bg.jpg') bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
-	height:auto;
+	height:100vh;
 	background-color: #FBFBFB;
 }
 .hero h1 {
